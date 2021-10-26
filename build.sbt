@@ -1,6 +1,6 @@
 name := "test-action"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.13.6"
 
@@ -16,5 +16,5 @@ credentials += Credentials(
   "GitHub Package Registry",
   "maven.pkg.github.com",
   "eldevanjr",
-  System.getenv("github.token")
+  System.getenv("GITHUB_TOKEN")
 )
