@@ -1,6 +1,8 @@
 name := "test-action"
 
-version := "0.3"
+version := "0.4"
+
+crossPaths := false
 
 scalaVersion := "2.13.6"
 
