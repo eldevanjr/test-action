@@ -1,4 +1,6 @@
-name := "test-action"
+organization := "com.iservport"
+
+name := "sbt-iservport"
 
 version := "0.4"
 
